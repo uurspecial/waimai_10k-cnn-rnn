@@ -49,17 +49,19 @@ python char_cnn_bilstm.py
 
 ## 參考來源 (References)
 
-本專案實作及設計主要參考以下資源：
+## 4. 參考
 
-1. **Zhang et al., 2015, Character-level CNN for Text Classification**  
+-1. **Zhang et al., 2015, Character-level CNN for Text Classification**  
    - 描述：原始字元級 CNN 模型，用於文本分類的基線架構。  
    - GitHub：🔗 [https://github.com/zhangxiangxiao/Crepe](https://github.com/zhangxiangxiao/Crepe)
 
-2. **Chinese-Text-Classification-Pytorch**  
+-2. **Chinese-Text-Classification-Pytorch**  
    - 描述：中文文本分類多模型實作範例，包括 TextCNN、RNN、BiLSTM、RCNN 等，提供完整資料前處理及模型訓練流程。  
    - GitHub：🔗 [https://github.com/649453932/Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch)
 
-3. **PyTorch 官方 RNN / LSTM 教學**  
+-3. **PyTorch 官方 RNN / LSTM 教學**  
    - 描述：PyTorch 官方教學，示範如何使用 RNN、LSTM、GRU 處理序列資料，包含 pack_padded_sequence 與動態序列長度處理。  
    - 網址：🔗 [https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html](https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html)
+
+
 
