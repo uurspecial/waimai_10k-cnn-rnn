@@ -1,0 +1,11 @@
+# 基本套件
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# PyTorch 主體（含 GPU 支援）
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 其他可選套件（如果要可視化訓練曲線）
+matplotlib>=3.5.0
