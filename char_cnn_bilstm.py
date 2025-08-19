@@ -12,7 +12,7 @@ from sklearn.metrics import f1_score, accuracy_score
 # ======================
 # 參考來源：
 # - Kaggle中文外送評論示例資料
-df = pd.read_csv('/kaggle/input/waimai-10k/waimai_10k.csv')
+df = pd.read_csv('/home/jovyan/waimai_10k.csv')
 labels = list(df['label'].values)
 txt_list = list(df['review'].values)
 
