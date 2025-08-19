@@ -46,10 +46,5 @@ pip install torch pandas scikit-learn
 
 # 執行訓練
 python char_cnn_bilstm.py
-test_samples = ["這家店外送很快，下次還會再點", "食物太難吃了，送餐還遲到"]
-for s in test_samples:
-    x = text_to_tensor(s).unsqueeze(0).to(device)
-    logits = model(x)
-    pred = logits.argmax(dim=1).item()
-    print(s, "=>", "好評" if pred==1 else "差評")
+
 
