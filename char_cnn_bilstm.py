@@ -11,7 +11,7 @@ from sklearn.metrics import f1_score, accuracy_score
 # 0. 讀取數據
 # ======================
 # 參考來源：
-# - Kaggle中文外送評論示例資料
+#-https://www.kaggle.com/code/czy111/nlp1-character-level-rnn-text-classification/notebook
 df = pd.read_csv('/home/jovyan/waimai_10k.csv')
 labels = list(df['label'].values)
 txt_list = list(df['review'].values)
@@ -20,8 +20,6 @@ txt_list = list(df['review'].values)
 # 1. 建立字元表
 # ======================
 # 參考來源：
-# - Zhang et al., 2015, Character-level CNN for text classification
-# - Chinese-Text-Classification-Pytorch GitHub: https://github.com/649453932/Chinese-Text-Classification-Pytorch
 char_set = set()
 for txt in txt_list:
     for char in txt:
